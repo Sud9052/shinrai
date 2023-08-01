@@ -1,0 +1,50 @@
+/* Header.css */
+.header {
+    background-color: #0faef3;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-left: 1rem;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Media Query for Responsive Header */
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .logo {
+    width: 60px; /* Set your desired width */
+    height: auto; /* Height will adjust automatically to maintain aspect ratio */
+    /* Alternatively, you can use percentage values for responsiveness */
+    /* width: 30%; */
+    /* height: auto; */
+  }

@@ -1,0 +1,40 @@
+/* Footer.css */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change the color on hover to your preferred color */
+  }
+  .social-media {
+    width: 1%; /* Set your desired width */
+    height: 1px; /* Height will adjust automatically to maintain aspect ratio */
+    /* Alternatively, you can use percentage values for responsiveness */
+    /* width: 30%; */
+    /* height: auto; */
+  }
+
+  .icon-container {
+    width: 5px; /* Set the width of the container to control the size of the icon */
+    height: 5px; /* Set the height of the container to control the size of the icon */
+    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+    display: flex; /* Optional: Use flexbox to center the image vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media {
+    width: 100%; /* Set the width of the image to fill the container */
+    height: 100%; /* Set the height of the image to fill the container */
+    object-fit: cover; /* Optional: Control how the image scales within the container */
+  }
+  

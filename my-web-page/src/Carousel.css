@@ -1,0 +1,42 @@
+/* Carousel.css */
+
+
+.caros {
+  width: 60px; /* Set your desired width */
+  height: auto; /* Height will adjust automatically to maintain aspect ratio */
+  /* Alternatively, you can use percentage values for responsiveness */
+  /* width: 30%; */
+  /* height: auto; */
+}
+/* ImageWithText.css */
+
+.image-container {
+  position: relative; /* Make the container a positioning context for its children */
+  display: inline-block; /* Ensure the container wraps around the image */
+}
+
+.image {
+  display: block; /* Remove any whitespace below the image */
+  width: 100%; /* Ensure the image fills its container */
+  height: 90px; /* Height will adjust automatically to maintain aspect ratio */
+}
+
+.text-overlay {
+  position: absolute; /* Position the text relative to its containing block (image-container) */
+  top: 50%; /* Vertically center the text */
+  left: 50%; /* Horizontally center the text */
+  transform: translate(-50%, -50%); /* Center the text perfectly */
+  background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent background */
+  padding: 10px; /* Add some padding for better readability */
+  border-radius: 5px; /* Add rounded corners to the overlay */
+}
+
+/* Customize the text styles as needed */
+.text-overlay h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text-overlay p {
+  font-size: 16px;
+}
